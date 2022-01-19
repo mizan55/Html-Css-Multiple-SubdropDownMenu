@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.bg-image {
+  background-image: url("bg-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+}
+.navbar {
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding: 10px;
+  color: white;
+}
+.drop-down {
+  position: relative;
+  display: inline;
+}
+.under-more {
+  position: absolute;
+  top: 29px;
+  right: 0px;
+  background-color: red;
+  display: none;
+  text-align: left;
+}
+.under-more a {
+  display: block;
+}
+.under-more a:hover {
+  background-color: green;
+}
+.drop-down:hover .under-more {
+  display: block;
+}
+
+.eng-drop {
+  position: relative;
+}
+.under_eng-drop {
+  position: absolute;
+  background-color: rgb(144, 236, 120);
+  left: 127px;
+  top: 0px;
+  display: none;
+}
+.eng-drop:hover .under_eng-drop {
+  display: block;
+}
